@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Feliz Cumpleaños</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="fotos.html">Fotitos</a>
+            <a href="nota.html">Para tú</a>
+        </nav>
+        <h1>¡Feliz Cumpleaños!</h1>
+        <div class="container">
+            <div class="box" onclick="toggleContent(this, 'contenido1')">Regalo 1</div>
+            <div class="box" onclick="toggleContent(this, 'contenido2')">Regalo 2</div>
+            <div class="box" onclick="toggleContent(this, 'contenido3')">Regalo 3</div>
+        </div>
+        <div class="container">
+            <div class="box" onclick="toggleContent(this, 'contenido4-5')">Regalos 4/5</div>
+            <div class="box" onclick="toggleContent(this, 'contenido6')">Regalo 6</div>
+            <div class="box" onclick="toggleContent(this, 'contenido7')">Regalo 7</div>
+        </div>
+        <div id="contenido1" class="hidden">
+            <p>
+                Cuando me ves empiezas a babear, 
+                mi color es anaranjado cual tu pelo al "natural".
+                Soy algo timido si mis abdominales miras fijamente, 
+                envuelto estoy por protegerme del sol. 
+                <br><br>¿Que soy?
+            </p>
+        </div>
+        <div id="contenido2" class="hidden">
+            <p>
+                Negro como la noche, guardo lo valioso.
+                Aunque mi forma recuerda la muerte,
+                mi propósito es sostener lo que da vida.
+                <br><br>¿Qué soy?
+            </p>
+        </div>
+        <div id="contenido3" class="hidden">
+            <p>
+                Sin voz ni cuerdas, canto al tocarme,
+                con ecos metálicos que surcan la mente.
+                Mis dedos escriben historias y mundos,
+                aunque mi corazón es frío y sin sangre.
+                <br><br>¿Qué soy?
+            </p>
+        </div>
+        <div id="contenido4-5" class="hidden">
+            <p>
+                Uno abraza la oscuridad con firmeza,
+                el otro brilla con destellos de realeza.
+                Juntos ocultan secretos profundos,
+                cercanos al corazón y la mano del mundo.
+                <br><br>¿Qué son?
+            </p>
+        </div>
+        <div id="contenido6" class="hidden">
+            <p>
+                Silencioso guardián de mitos y sombras,
+                mi mirada te juzga desde un pedestal.
+                Inmóvil soy, pero en la oscuridad,
+                mi alma tal vez cobre vida al azar.
+                <br><br>¿Qué soy?
+            </p>
+        </div>
+        <div id="contenido7" class="hidden">
+            <p>
+                Sin sangre en mis venas, pero dientes afilados,
+                no temo al sol, aunque no soy cálido.
+                Suave y callado, soy más tierno que cruel,
+                un abrazo mío no te hará correr.
+                <br><br>¿Qué soy?
+            </p>
+        </div>
+    <script src="script.js"></script>
+    </body>
+</html>
